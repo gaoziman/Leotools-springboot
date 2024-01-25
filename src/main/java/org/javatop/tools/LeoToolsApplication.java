@@ -1,6 +1,7 @@
 package org.javatop.tools;
 
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -13,6 +14,7 @@ import org.springframework.core.env.Environment;
  * @description : 启动类
  */
 @SpringBootApplication
+//@MapperScan("org.javatop.tools.mapper")
 public class LeoToolsApplication {
 
     public static void main(String[] args) {
