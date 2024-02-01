@@ -154,4 +154,12 @@
             `status`   = #{status,jdbcType=VARCHAR}
         where id = #{id,jdbcType=INTEGER}
     </update>
+
+    <select id="selectByUsername" resultMap="BaseResultMap">
+        <!--@mbg.generated-->
+        select
+        <include refid="Base_Column_List"/>
+        from `user`
+        where username = #{username,jdbcType=VARCHAR}
+    </select>
 </mapper>

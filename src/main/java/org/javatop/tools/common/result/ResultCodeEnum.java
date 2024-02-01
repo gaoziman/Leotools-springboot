@@ -21,7 +21,9 @@ public enum ResultCodeEnum {
     LOGIN_AUTH(208, "未登陆"),
     PERMISSION(209, "没有权限"),
 
-    ;
+    PASSWROD_ERROR(210,"用户名或者密码错误" ),
+    USER_NOT_FOUND(211, "用户不存在"),
+    LOGIN_SUCCESS(200,"登录成功" );
 
     private  Integer code;
 

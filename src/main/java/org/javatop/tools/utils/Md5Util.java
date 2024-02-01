@@ -75,4 +75,9 @@ public class Md5Util {
         stringbuffer.append(c1);
     }
 
+
+    public static void main(String[] args) {
+        System.out.println(Md5Util.getMD5String("123456"));
+        System.out.println(Md5Util.checkPassword("123456","e10adc3949ba59abbe56e057f20f883e"));
+    }
 }

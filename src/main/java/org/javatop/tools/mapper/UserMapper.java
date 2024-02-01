@@ -23,4 +23,6 @@ public interface UserMapper {
     int updateByCondition(User record);
 
     int updateById(User record);
+
+    User selectByUsername(String username);
 }
