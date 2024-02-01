@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce6f9129-698d-420c-8564-cac7ec35952b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ce6f9129-698d-420c-8564-cac7ec35952b" name="Changes" comment="测试">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/javatop/tools/utils/Md5Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,29 +33,91 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bOyJKvXTzkxy4ctbRnmmPwOzLw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ApiPost:METDOD_SEND_RECORD:Leotools-springboot": "{\"/user/selectOne\":[{\"url\":\"http://localhost:8888/user/selectOne\",\"header\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8888/user/selectOne\\n\\n\\u003chtml\\u003e\\u003cbody\\u003e\\u003ch1\\u003eWhitelabel Error Page\\u003c/h1\\u003e\\u003cp\\u003eThis application has no explicit mapping for /error, so you are seeing this as a fallback.\\u003c/p\\u003e\\u003cdiv id\\u003d\\u0027created\\u0027\\u003eThu Jan 25 11:33:10 CST 2024\\u003c/div\\u003e\\u003cdiv\\u003eThere was an unexpected error (type\\u003dNot Found, status\\u003d404).\\u003c/div\\u003e\\u003c/body\\u003e\\u003c/html\\u003e\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":11.0,\"minute\":33.0,\"second\":10.0,\"nano\":2.028216E8}}},{\"url\":\"http://localhost:8888/user/selectOne/1\",\"header\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8888/user/selectOne/1\\n\\n\\u003chtml\\u003e\\u003cbody\\u003e\\u003ch1\\u003eWhitelabel Error Page\\u003c/h1\\u003e\\u003cp\\u003eThis application has no explicit mapping for /error, so you are seeing this as a fallback.\\u003c/p\\u003e\\u003cdiv id\\u003d\\u0027created\\u0027\\u003eThu Jan 25 11:33:35 CST 2024\\u003c/div\\u003e\\u003cdiv\\u003eThere was an unexpected error (type\\u003dInternal Server Error, status\\u003d500).\\u003c/div\\u003e\\u003c/body\\u003e\\u003c/html\\u003e\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":11.0,\"minute\":33.0,\"second\":35.0,\"nano\":1.102218E8}}}],\"/user/selectOne/{id}\":[{\"url\":\"http://localhost:8888/user/selectOne/1\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8888/user/selectOne/1\\n\\n\\u003chtml\\u003e\\u003cbody\\u003e\\u003ch1\\u003eWhitelabel Error Page\\u003c/h1\\u003e\\u003cp\\u003eThis application has no explicit mapping for /error, so you are seeing this as a fallback.\\u003c/p\\u003e\\u003cdiv id\\u003d\\u0027created\\u0027\\u003eThu Jan 25 11:53:51 CST 2024\\u003c/div\\u003e\\u003cdiv\\u003eThere was an unexpected error (type\\u003dInternal Server Error, status\\u003d500).\\u003c/div\\u003e\\u003c/body\\u003e\\u003c/html\\u003e\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":11.0,\"minute\":53.0,\"second\":51.0,\"nano\":8.893993E8}}},{\"url\":\"http://localhost:8888/user/selectOne/1\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8888/user/selectOne/1\\n\\n\\u003chtml\\u003e\\u003cbody\\u003e\\u003ch1\\u003eWhitelabel Error Page\\u003c/h1\\u003e\\u003cp\\u003eThis application has no explicit mapping for /error, so you are seeing this as a fallback.\\u003c/p\\u003e\\u003cdiv id\\u003d\\u0027created\\u0027\\u003eThu Jan 25 11:54:40 CST 2024\\u003c/div\\u003e\\u003cdiv\\u003eThere was an unexpected error (type\\u003dInternal Server Error, status\\u003d500).\\u003c/div\\u003e\\u003c/body\\u003e\\u003c/html\\u003e\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":11.0,\"minute\":54.0,\"second\":40.0,\"nano\":3.758544E8}}},{\"url\":\"http://localhost:8888/user/selectOne/1\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"{\\n  \\\"id\\\": 1,\\n  \\\"role\\\": \\\"0\\\",\\n  \\\"username\\\": \\\"User1\\\",\\n  \\\"password\\\": \\\"pass1234\\\",\\n  \\\"idCard\\\": \\\"123456789012345678\\\",\\n  \\\"phone\\\": \\\"13800000001\\\",\\n  \\\"gender\\\": \\\"男\\\",\\n  \\\"time\\\": \\\"2024-01-01 00:00:00\\\",\\n  \\\"status\\\": \\\"1\\\"\\n}\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":14.0,\"minute\":54.0,\"second\":55.0,\"nano\":5.464407E8}}},{\"url\":\"http://localhost:8888/user/selectOne/{id}\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"{\\n  \\\"id\\\": 1,\\n  \\\"role\\\": \\\"0\\\",\\n  \\\"username\\\": \\\"User1\\\",\\n  \\\"password\\\": \\\"pass1234\\\",\\n  \\\"idCard\\\": \\\"123456789012345678\\\",\\n  \\\"phone\\\": \\\"13800000001\\\",\\n  \\\"gender\\\": \\\"男\\\",\\n  \\\"time\\\": \\\"2024-01-01 00:00:00\\\",\\n  \\\"status\\\": \\\"1\\\"\\n}\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":14.0,\"minute\":55.0,\"second\":9.0,\"nano\":1.16055E8}}},{\"url\":\"http://localhost:8888/user/selectOne/{id}\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"2\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"{\\n  \\\"id\\\": 1,\\n  \\\"role\\\": \\\"0\\\",\\n  \\\"username\\\": \\\"User1\\\",\\n  \\\"password\\\": \\\"pass1234\\\",\\n  \\\"idCard\\\": \\\"123456789012345678\\\",\\n  \\\"phone\\\": \\\"13800000001\\\",\\n  \\\"gender\\\": \\\"男\\\",\\n  \\\"time\\\": \\\"2024-01-01 00:00:00\\\",\\n  \\\"status\\\": \\\"1\\\"\\n}\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":14.0,\"minute\":55.0,\"second\":21.0,\"nano\":3.696983E8}}},{\"url\":\"http://localhost:8888/user/selectOne/{id}\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"2\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"{\\n  \\\"id\\\": 1,\\n  \\\"role\\\": \\\"0\\\",\\n  \\\"username\\\": \\\"User1\\\",\\n  \\\"password\\\": \\\"pass1234\\\",\\n  \\\"idCard\\\": \\\"123456789012345678\\\",\\n  \\\"phone\\\": \\\"13800000001\\\",\\n  \\\"gender\\\": \\\"男\\\",\\n  \\\"time\\\": \\\"2024-01-01 00:00:00\\\",\\n  \\\"status\\\": \\\"1\\\"\\n}\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":14.0,\"minute\":55.0,\"second\":31.0,\"nano\":2.51531E8}}},{\"url\":\"http://localhost:8888/user/selectOne/{id}\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"3\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"{\\n  \\\"id\\\": 1,\\n  \\\"role\\\": \\\"0\\\",\\n  \\\"username\\\": \\\"User1\\\",\\n  \\\"password\\\": \\\"pass1234\\\",\\n  \\\"idCard\\\": \\\"123456789012345678\\\",\\n  \\\"phone\\\": \\\"13800000001\\\",\\n  \\\"gender\\\": \\\"男\\\",\\n  \\\"time\\\": \\\"2024-01-01 00:00:00\\\",\\n  \\\"status\\\": \\\"1\\\"\\n}\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":14.0,\"minute\":55.0,\"second\":41.0,\"nano\":2.963062E8}}},{\"url\":\"http://localhost:8888/user/selectOne/2\",\"header\":[{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"value\":\"3\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"description\":\"主键\",\"is_checked\":1.0,\"key\":\"id\",\"type\":\"Text\",\"not_null\":\"1\",\"field_type\":\"Integer\",\"value\":\"1\"},{\"is_checked\":1.0,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"{\\n  \\\"id\\\": 2,\\n  \\\"role\\\": \\\"1\\\",\\n  \\\"username\\\": \\\"User2\\\",\\n  \\\"password\\\": \\\"pass1235\\\",\\n  \\\"idCard\\\": \\\"123456789012345679\\\",\\n  \\\"phone\\\": \\\"13800000002\\\",\\n  \\\"gender\\\": \\\"女\\\",\\n  \\\"time\\\": \\\"2024-01-02 00:00:00\\\",\\n  \\\"status\\\": \\\"0\\\"\\n}\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024.0,\"month\":1.0,\"day\":25.0},\"time\":{\"hour\":14.0,\"minute\":55.0,\"second\":55.0,\"nano\":2.654981E8}}}],\"/\":[{\"url\":\"http://localhost:8888/\",\"header\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"rest\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:8888/\\n\\nConnectException: Connection refused: connect\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2024,\"month\":1,\"day\":29},\"time\":{\"hour\":11,\"minute\":49,\"second\":14,\"nano\":966744000}}}]}",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.LeoToolsApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/code-myself",
+    "last_opened_file_path": "D:/IDEA Workplace/Leo-project/Leotools/Leotools-springboot/src/main/java/org/javatop/tools",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/IDEA Workplace/Leo-project/Leotools/Leotools-springboot/src/main/java/org/javatop/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA Workplace\Leo-project\Leotools\Leotools-springboot\src\main\java\org\javatop\tools" />
+      <recent name="D:\IDEA Workplace\Leo-project\Leotools\Leotools-springboot" />
+      <recent name="D:\IDEA Workplace\Leo-project\Leotools\Leotools-springboot\src\main\resources" />
+      <recent name="D:\IDEA Workplace\Leo-project\Leotools\Leotools-springboot\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA Workplace\Leo-project\Leotools\Leotools-springboot\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.javatop.tools.utils" />
+      <recent name="org.javatop.tools.common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
+    <configuration name="LeoToolsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Leotools-springboot" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javatop.tools.LeoToolsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javatop.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
       <option name="SPRING_BOOT_MAIN_CLASS" />
@@ -60,6 +130,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LeoToolsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,22 +144,110 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706100346848</updated>
-      <workItem from="1706100348244" duration="2000" />
+      <workItem from="1706100348244" duration="3292000" />
+      <workItem from="1706148242548" duration="1067000" />
+      <workItem from="1706151850685" duration="2448000" />
+      <workItem from="1706154807774" duration="22348000" />
+      <workItem from="1706499439899" duration="2327000" />
+      <workItem from="1706750592606" duration="11520000" />
     </task>
+    <task id="LOCAL-00001" summary="添加基本依赖信息">
+      <option name="closed" value="true" />
+      <created>1706102729281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706102729281</updated>
+    </task>
+    <task id="LOCAL-00002" summary="生成user表基本代码">
+      <option name="closed" value="true" />
+      <created>1706166400460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706166400460</updated>
+    </task>
+    <task id="LOCAL-00003" summary="统一响应结果">
+      <option name="closed" value="true" />
+      <created>1706758345079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706758345079</updated>
+    </task>
+    <task id="LOCAL-00004" summary="包名移动位置">
+      <option name="closed" value="true" />
+      <created>1706769908320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706769908320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加jwt等依赖">
+      <option name="closed" value="true" />
+      <created>1706769928022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706769928022</updated>
+    </task>
+    <task id="LOCAL-00006" summary="编写jwt工具类">
+      <option name="closed" value="true" />
+      <created>1706769945582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706769945582</updated>
+    </task>
+    <task id="LOCAL-00007" summary="自定义全局异常处理">
+      <option name="closed" value="true" />
+      <created>1706771124875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706771124875</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改登录接口">
+      <option name="closed" value="true" />
+      <created>1706772706523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706772706523</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加ThreadLocal工具类">
+      <option name="closed" value="true" />
+      <created>1706772937861</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706772937861</updated>
+    </task>
+    <task id="LOCAL-00010" summary="测试">
+      <option name="closed" value="true" />
+      <created>1706773075747</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706773075747</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/javatop/Main.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加基本依赖信息" />
+    <MESSAGE value="生成user表基本代码" />
+    <MESSAGE value="统一响应结果" />
+    <MESSAGE value="包名移动位置" />
+    <MESSAGE value="添加jwt等依赖" />
+    <MESSAGE value="编写jwt工具类" />
+    <MESSAGE value="自定义全局异常处理" />
+    <MESSAGE value="修改登录接口" />
+    <MESSAGE value="添加ThreadLocal工具类" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
 </project>
