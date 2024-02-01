@@ -1,10 +1,11 @@
 package org.javatop.tools.controller;
 
-import org.javatop.tools.domain.User;
 import org.javatop.tools.service.impl.UserServiceImpl;
+import org.javatop.tools.utils.Result;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 
 /**
  * (user)表控制层
@@ -24,7 +25,9 @@ public class UserController {
      * @return 单条数据
      */
     @GetMapping("/{id}")
-    public User selectOne(@PathVariable Integer id) {
-        return userServiceImpl.selectById(id);
+    public Result selectOne(@PathVariable Integer id) {
+        return Result.success(userServiceImpl.selectById(id));
     }
+
+
 }
