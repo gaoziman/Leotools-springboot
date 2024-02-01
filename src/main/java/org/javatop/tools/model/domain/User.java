@@ -1,4 +1,4 @@
-package org.javatop.tools.domain;
+package org.javatop.tools.model.domain;
 
 import java.util.Date;
 import lombok.AllArgsConstructor;

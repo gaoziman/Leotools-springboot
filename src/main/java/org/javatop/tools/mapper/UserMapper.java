@@ -1,7 +1,7 @@
 package org.javatop.tools.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.javatop.tools.domain.User;
+import org.javatop.tools.model.domain.User;
 
 /**
  * @author : Leo

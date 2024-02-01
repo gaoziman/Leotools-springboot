@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.javatop.tools.mapper.UserMapper;
-import org.javatop.tools.domain.User;
+import org.javatop.tools.model.domain.User;
 import org.javatop.tools.service.UserService;
 /**
  * @author : Leo

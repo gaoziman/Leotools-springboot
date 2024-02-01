@@ -1,7 +1,7 @@
 package org.javatop.tools.controller;
 
 import org.javatop.tools.service.impl.UserServiceImpl;
-import org.javatop.tools.utils.Result;
+import org.javatop.tools.common.result.Result;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.beans.factory.annotation.Autowired;

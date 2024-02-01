@@ -1,6 +1,6 @@
 package org.javatop.tools.service;
 
-import org.javatop.tools.domain.User;
+import org.javatop.tools.model.domain.User;
     /**
  * @author : Leo
  * @date  2024-01-25 11:17

@@ -1,4 +1,4 @@
-package org.javatop.tools.utils;
+package org.javatop.tools.common.result;
 
 
 /**

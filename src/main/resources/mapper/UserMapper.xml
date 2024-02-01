@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.javatop.tools.mapper.UserMapper">
-    <resultMap id="BaseResultMap" type="org.javatop.tools.domain.User">
+    <resultMap id="BaseResultMap" type="org.javatop.tools.model.domain.User">
         <!--@mbg.generated-->
         <!--@Table `user`-->
         <id column="id" jdbcType="INTEGER" property="id"/>
@@ -39,7 +39,7 @@
         from `user`
         where id = #{id,jdbcType=INTEGER}
     </delete>
-    <insert id="insert" parameterType="org.javatop.tools.domain.User">
+    <insert id="insert" parameterType="org.javatop.tools.model.domain.User">
         <!--@mbg.generated-->
         insert into `user` (id, `role`, username,
                             `password`, id_card, phone,
@@ -48,7 +48,7 @@
                 #{password,jdbcType=VARCHAR}, #{idCard,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR},
                 #{gender,jdbcType=VARCHAR}, #{time,jdbcType=DATE}, #{status,jdbcType=VARCHAR})
     </insert>
-    <insert id="insertSelective" parameterType="org.javatop.tools.domain.User">
+    <insert id="insertSelective" parameterType="org.javatop.tools.model.domain.User">
         <!--@mbg.generated-->
         insert into `user`
         <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -110,7 +110,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByCondition" parameterType="org.javatop.tools.domain.User">
+    <update id="updateByCondition" parameterType="org.javatop.tools.model.domain.User">
         <!--@mbg.generated-->
         update `user`
         <set>
@@ -141,7 +141,7 @@
         </set>
         where id = #{id,jdbcType=INTEGER}
     </update>
-    <update id="updateById" parameterType="org.javatop.tools.domain.User">
+    <update id="updateById" parameterType="org.javatop.tools.model.domain.User">
         <!--@mbg.generated-->
         update `user`
         set `role`     = #{role,jdbcType=VARCHAR},
